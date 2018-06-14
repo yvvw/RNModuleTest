@@ -1,3 +1,5 @@
 rootProject.name = 'RNModuleTest'
+include ':react-native-wechat'
+project(':react-native-wechat').projectDir = new File(rootProject.projectDir, '../node_modules/@yyyyu/react-native-wechat/android')
 
 include ':app'

@@ -1,0 +1,28 @@
+PODS:
+  - React/Dependency (0.55.4)
+  - RNWechat (2.0.3):
+    - WechatOpenSDK
+  - WechatOpenSDK (1.8.2)
+
+DEPENDENCIES:
+  - React/Dependency (from `../node_modules/react-native`)
+  - "RNWechat (from `../node_modules/@yyyyu/react-native-wechat`)"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  RNWechat:
+    :path: "../node_modules/@yyyyu/react-native-wechat"
+
+SPEC CHECKSUMS:
+  React: 97118e968c3548a93ee252af39aae59bc2113bcb
+  RNWechat: 78060563fd45191d7e39ad86f774bd897d6ccc67
+  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
+
+PODFILE CHECKSUM: 4aca6fcc59054fdbb93252df5034cf6f1107bdb9
+
+COCOAPODS: 1.5.0

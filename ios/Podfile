@@ -7,4 +7,7 @@ target 'RNModuleTest' do
 
   # Pods for RNModuleTest
 
+  pod 'React', :path => '../node_modules/react-native', :subspecs => ['Dependency']
+  pod 'RNWechat', :path => '../node_modules/@yyyyu/react-native-wechat'
+
 end
