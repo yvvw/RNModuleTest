@@ -1,0 +1,26 @@
+PODS:
+  - React/Dependency (0.55.4)
+  - RNGeetestSensebot (1.0.4)
+  - yoga (0.55.4.React)
+
+DEPENDENCIES:
+  - React/Dependency (from `../node_modules/react-native`)
+  - "RNGeetestSensebot (from `../node_modules/@yyyyu/react-native-geetest-sensebot`)"
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  RNGeetestSensebot:
+    :path: "../node_modules/@yyyyu/react-native-geetest-sensebot"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: 97118e968c3548a93ee252af39aae59bc2113bcb
+  RNGeetestSensebot: d9a59a23bf84f723c9a57916a98dbf3fa3021447
+  yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
+
+PODFILE CHECKSUM: f4be54cc72b700d426cab47da5ea32bef4c9ae97
+
+COCOAPODS: 1.5.0
