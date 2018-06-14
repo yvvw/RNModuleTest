@@ -1,0 +1,30 @@
+PODS:
+  - QQ_MTA (2.1.2.1):
+    - QQ_MTA/BasicAnalysis (= 2.1.2.1)
+  - QQ_MTA/BasicAnalysis (2.1.2.1)
+  - React/Dependency (0.55.4)
+  - RNMta (2.0.5):
+    - QQ_MTA
+
+DEPENDENCIES:
+  - React/Dependency (from `../node_modules/react-native`)
+  - "RNMta (from `../node_modules/@yyyyu/react-native-mta`)"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - QQ_MTA
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  RNMta:
+    :path: "../node_modules/@yyyyu/react-native-mta"
+
+SPEC CHECKSUMS:
+  QQ_MTA: def0ab1c580bdb734efbbbfc6dc39c3e4a5134b0
+  React: 97118e968c3548a93ee252af39aae59bc2113bcb
+  RNMta: 5506343da1f66d2d27566a69f11d6618033e10f8
+
+PODFILE CHECKSUM: 0e494deb51291b50b01b5e897f22f7b16503d15a
+
+COCOAPODS: 1.5.0

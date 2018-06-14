@@ -1,3 +1,5 @@
 rootProject.name = 'RNModuleTest'
+include ':react-native-mta'
+project(':react-native-mta').projectDir = new File(rootProject.projectDir, '../node_modules/@yyyyu/react-native-mta/android')
 
 include ':app'

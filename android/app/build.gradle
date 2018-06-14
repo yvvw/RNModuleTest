@@ -106,6 +106,10 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
+        manifestPlaceholders = [
+                MTA_APPKEY: "",
+                MTA_CHANNEL: ""
+        ]
     }
     splits {
         abi {
@@ -137,6 +141,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-mta')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules

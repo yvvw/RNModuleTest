@@ -6,5 +6,7 @@ target 'RNModuleTest' do
   # use_frameworks!
 
   # Pods for RNModuleTest
+  pod 'React', :path => '../node_modules/react-native', :subspecs => ['Dependency']
+  pod 'RNMta', :path => '../node_modules/@yyyyu/react-native-mta'
 
 end
